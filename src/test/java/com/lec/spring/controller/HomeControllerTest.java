@@ -22,7 +22,7 @@ class HomeControllerTest {
 		ResponseEntity<String> response = restTemplate.getForEntity("/aws/v1", String.class);
 		
 		// 예상결과값(매개변수1)과 실제결과값(매개변수2)가 같을 경우에만 테스트 성공 (테스트 시에만 사용 가능한 함수)
-		assertEquals("<h1>AWS 배포 v1</h1>", response.getBody());
+		assertEquals("<h1>AWS 배포 v1.1</h1>", response.getBody());
 		
 	}
 	

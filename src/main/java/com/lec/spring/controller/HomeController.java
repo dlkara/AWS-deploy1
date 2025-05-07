@@ -17,7 +17,7 @@ public class HomeController {
 		else if (num == -1) log.error("💛 /aws/v1 호출. error 로그");
 		else if (num == 0) log.warn("❤️ /aws/v1 호출. warn 로그");
 		
-		return "<h1>AWS 배포 v1</h1>";
+		return "<h1>AWS 배포 v1.1</h1>";
 		
 	}
 
